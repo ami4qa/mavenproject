@@ -49,7 +49,7 @@ public class LoginPage extends TestBase{
 		public HomePage login(String un,String pwd) {
 			username.sendKeys(un);
 			password.sendKeys(pwd);
-			loginBtn.click();
+			//loginBtn.click();
 			
 			return new HomePage();
 		}
